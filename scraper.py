@@ -132,6 +132,6 @@ if __name__ == "__main__":
     # 2. OTVARAMO FOLDER I FAJLOVE U KOME SKLADIŠTIMO PODATKE
     folder = 'scraping_files'
     set_up_scraping(folder)
-    outFileName = 'graficke_select.csv'
+    outFileName = 'data.csv'
     with open(folder + '/' + outFileName, 'w') as filehandler:
         gigabyte_full_scrape(driver, filehandler)
